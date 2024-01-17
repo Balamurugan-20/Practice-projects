@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-conv</title>
+    <script defer src="temperature_js.js"></script>
+    <link rel="stylesheet" href="temperature_style.css">
+   
+</head>
+<body>
+        <div class="container"> <!--full container-->
+
+            <div class="innercontainer">
+            <div class="name">Temp-Convert</div> <!--web name-->
+
+            <div class="top">
+                <label>Enter a temperature : </label><br><br>
+                <input type="text" id="textbox"><br><br>
+            </div>
+
+            <div class="mid">
+                <label >Convert to </label><br>
+                <div>
+                    <input type="radio" id="cButton" name="unit">
+                <label >Celsius</label><br>
+
+                </div>
+                
+                <div>
+                    <input type="radio" id="fButton" name="unit">
+                <label >Fahrenheit</label><br><br>
+                </div>
+                
+            </div>
+
+            <div class="bottom">
+                <button id="convertbtn" type="button" >CONVERT</button>
+                <br><br>
+            </div>
+            <div class="bottom">
+                <button id="resetbtn" type="button" >RESET</button>
+                <br><br>
+            </div>
+            
+
+            <div class="answer">
+                <label id="templabel"></label>
+            </div>
+            <!-- <div>refresh the page</div> -->
+        </div>
+    
+        </div>
+
+</body>
+</html>

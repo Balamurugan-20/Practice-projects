@@ -1,0 +1,62 @@
+.container{
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+    
+    width: 280px;
+}
+
+.innercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    height: 100vh;
+}
+.answer{
+    border: none;
+    min-width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: bold;
+
+    
+}
+
+#textbox{
+    text-align: center;
+width: 60px;
+min-height: 30px;
+border-radius: 2px;
+}
+#cButton,#fButton{
+    margin: unset;
+}
+
+
+
+
+.mid{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
